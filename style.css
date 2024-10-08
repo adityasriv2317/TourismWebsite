@@ -3,7 +3,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(78, 78, 78);
+    /* background-color: rgb(204, 204, 204); */
+    font-family: "Afacad Flux", sans-serif;
+
+    background-image: url("images/home_img1.jpg");
+    /* background-size: cover; */
+    background-size: contain;
+
+    background-repeat: no-repeat;
 }
 
 /* .header ul{
@@ -12,9 +19,11 @@ body{
 } */
 
 .header{
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 1rem;
 
+    font-family: "Afacad Flux", sans-serif;
+    
     margin: 1%;
     margin-top: 1%;
 
@@ -29,10 +38,19 @@ body{
     list-style: none;
     display: flex;
     align-items: center;
+
+    position: relative;
+    z-index: 1;
 }
 
 #uno a{
     padding-right: 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+#usno a:visited{
+    color: white;
 }
 
 #uno li{
@@ -43,10 +61,103 @@ body{
     height: 50px;
 }
 
-#searchline{
+/* #searchline{
     margin-right: 3%;
     width: 20vw;
     height: 2.5vw;
 
     border-radius: 5rem;
+} */
+
+#searchline{
+    font-size: larger;
+    /* margin-left: 10px; */
+    padding-left: 1%;
+}
+
+.header input{
+    margin-right: 4%;
+    height: 2.5vw;
+    width: 25vw;
+    border-radius: 8rem;
+    border: none;
+}
+
+#bgimg{
+    margin-top: 0;
+    margin-left: 0; margin-right: 0;
+    width: 100%;
+    height: auto;
+}
+
+#image #header {
+    position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+}
+
+.oneliner{
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+
+
+#up{
+    margin-top: 7%;
+    margin-bottom: 0px;
+}
+
+#down{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.nexttrip{
+    margin-top: 7%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+    font-size: large;
+    color: azure;
+}
+
+.tripimages img{
+    width: 31%;
+    object-fit: cover;
+    border-radius: 6%;
+    margin-right: 2vw;
+}
+
+.tripimages{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* margin: 0px 0px; */
+    margin-top: 2%;
+}
+
+.tripimages img:last-child{
+    margin-right: 0;
+}
+
+#gotoDestination{
+    text-align: right;
+    margin-right: 0;
+    margin-left: 70%;
+}
+
+#gotoDestination a{
+    text-decoration: none;
+    color: white;
+}
+
+.triptext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
