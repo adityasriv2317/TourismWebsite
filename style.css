@@ -19,17 +19,23 @@ body{
 } */
 
 .header{
-    /* background-color: aqua; */
-    border-radius: 1rem;
 
     font-family: "Afacad Flux", sans-serif;
-    
-    margin: 1%;
-    margin-top: 1%;
+    /* margin-top: 0; */
 
-    height: 4%;
+    margin-left: 2%;
+    margin-right: 2vw;
 
     display: flex;
+    background: rgba(45, 136, 247, 0.062);
+    backdrop-filter: blur(10px);
+
+    overflow: hidden;
+    position: fixed;
+
+    top: 2vw;
+    width: 100%;
+
     justify-content: space-between;
     align-items: center;
 }
@@ -39,14 +45,24 @@ body{
     display: flex;
     align-items: center;
 
-    position: relative;
-    z-index: 1;
+    margin-top: 0;
+    /* padding: 0; */
+
+    /* overflow: hidden;
+    position: fixed; */
+
+    /* position: relative;
+    z-index: 1; */
 }
 
 #uno a{
     padding-right: 1vw;
     text-decoration: none;
     color: white;
+    font-size: 1.5vw;
+    margin-top: 0;
+    /* padding-bottom: 6vw; */
+    display: block;
 }
 
 #usno a:visited{
@@ -55,6 +71,7 @@ body{
 
 #uno li{
     padding-right: 1vw;
+    float: left;
 }
 
 #logoimg {
@@ -100,6 +117,18 @@ body{
 
 .oneliner{
     text-align: center;
+    /* justify-content: center;
+     */
+    /* margin-top: 3000%; */
+    /* margin: 80 80 80 80; */
+
+    /* display: flex; */
+    /* display: grid;
+    place-items: center;
+    height: 100v; */
+
+    margin-top: 40%;
+
     font-family: "Afacad Flux", sans-serif;
     font-size: 5vw;
     color: white;
@@ -108,7 +137,7 @@ body{
 
 
 #up{
-    margin-top: 7%;
+    margin-top: 20vw;
     margin-bottom: 0px;
 }
 
@@ -126,25 +155,6 @@ body{
     color: azure;
 }
 
-.tripimages img{
-    width: 31%;
-    object-fit: cover;
-    border-radius: 6%;
-    margin-right: 2vw;
-}
-
-.tripimages{
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-around;
-    /* margin: 0px 0px; */
-    margin-top: 2%;
-}
-
-.tripimages img:last-child{
-    margin-right: 0;
-}
-
 #gotoDestination{
     text-align: right;
     margin-right: 0;
@@ -153,11 +163,83 @@ body{
 
 #gotoDestination a{
     text-decoration: none;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 0;
+    margin-left: 1vw;
     color: white;
+
+    flex-shrink: 0;
+
+    padding-left: 2%;
+    padding-top: .5%; padding-bottom: .5%;
+    padding-right: 2%;
+    border: 1px solid;
+    border-radius: 1rem;
 }
 
 .triptext{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 71%;
+    /* margin: 0 20px; */
+}
+
+.tripimages img{
+    width: 31%;
+    object-fit: cover;
+    border-radius: 6%;
+    margin-bottom: 0;
+    margin-right: 2vw;
+    padding-bottom: 0;
+}
+
+.tripimages{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    margin-top: 2%;
+    
+}
+
+.tripimages img:last-child{
+    margin-right: 0;
+}
+
+
+
+.tripimages a{
+    list-style: none;
+    color: black;
+    font-size: 2vw;
+    margin-top: 0;
+}
+
+#triplinks{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#triplinks a{
+    text-decoration: none;
+    width: 31%;
+}
+
+.tripimages img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#l1:hover ~ #i1,
+#l2:hover ~ #i2,
+#l3:hover ~ #i3,
+#i1:hover,
+#i2:hover,
+#i3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(23, 86, 104);
 }
