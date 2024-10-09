@@ -23,11 +23,13 @@ body{
     font-family: "Afacad Flux", sans-serif;
     /* margin-top: 0; */
 
-    margin-left: 2%;
-    margin-right: 2vw;
+    max-width: 96%;
+margin: 0 2%;
+
+border-radius: 6rem;
 
     display: flex;
-    background: rgba(45, 136, 247, 0.062);
+    background: rgba(45, 136, 247, 0.36);
     backdrop-filter: blur(10px);
 
     overflow: hidden;
@@ -46,7 +48,9 @@ body{
     align-items: center;
 
     margin-top: 0;
-    /* padding: 0; */
+    margin-bottom: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 
     /* overflow: hidden;
     position: fixed; */
@@ -59,13 +63,13 @@ body{
     padding-right: 1vw;
     text-decoration: none;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     margin-top: 0;
     /* padding-bottom: 6vw; */
     display: block;
 }
 
-#usno a:visited{
+#uno a:visited{
     color: white;
 }
 
@@ -74,8 +78,14 @@ body{
     float: left;
 }
 
+#uno td:last-child{
+    padding-right: 1vw;
+}
+
 #logoimg {
     height: 50px;
+    margin-top: .5vh;
+    margin-bottom: auto;
 }
 
 /* #searchline{
