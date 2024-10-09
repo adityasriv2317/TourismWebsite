@@ -272,7 +272,7 @@ body{
 .vdogallery{
     font-family: "Afacad Flux", sans-serif;
 
-    background-color: rgba(29, 116, 41, 0.484);
+    background-color: rgba(39, 129, 51, 0.778);
     border-radius: 2rem;
 
     max-width: 98%;
@@ -285,12 +285,14 @@ body{
     padding-right: 1%;
     padding-left: 1%;
     padding-bottom: .5%;
+
+    padding-top: 0;
 }
 
 #vdotext{
     font-size: 3em;
-    /* margin-top: 20vh; */
-    padding: 2% auto;
+    padding-top: .5%;
+    margin-bottom: 1%;
 }
 
 .vids iframe{
