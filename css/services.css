@@ -73,7 +73,7 @@ body{
 }
 
 .pcards{
-    background-image: url('images/serv.jpg');
+    /* background-image: url('images/serv.jpg'); */
     /* background-size: contain; */
     display: flex;
     width: 31%;
@@ -92,6 +92,16 @@ body{
     transition: transform 0.6s ease, box-shadow 0.2s ease, background-color 1s ease;
 
     /* height: auto; */
+}
+
+#card1{
+    background-image: url("images/goa.jpg");
+}
+#card2{
+    background-image: url("images/bali.jpg");
+}
+#card3{
+    background-image: url("images/meghalaya.jpg");
 }
 
 .pcards:hover{
@@ -126,9 +136,14 @@ body{
 
 .pcards p{
     color: aliceblue;
-    margin-top: 55px;
+    /* margin-top: 55px; */
 }
 
-#ctxt{
+.pcards{
     color: antiquewhite;
+}
+
+#plan{
+    font-weight: 1000;
+    font-size: medium;
 }
