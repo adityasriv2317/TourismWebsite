@@ -13,6 +13,31 @@
     background-repeat: no-repeat;
 }
 
+#srvb header{
+    font-family: "Afacad Flux", sans-serif;
+    /* margin-top: 0; */
+
+    max-width: 96%;
+    margin: 0 2%;
+
+    border-radius: 6rem;
+
+    display: flex;
+    background: rgba(94, 152, 223, 0.36);
+    backdrop-filter: blur(10px);
+
+    overflow: hidden;
+    position: fixed;
+
+    z-index: 10;
+
+    top: 2vw;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* .header ul{
     display: inline-block;
     list-style: none;
