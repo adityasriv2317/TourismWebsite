@@ -81,6 +81,8 @@ body{
     margin-right: 2%;
 
     background-color: rgba(79, 156, 189, 0.515);
+    /* border: 200px rgb(255, 255, 255); */
+    box-shadow: 0 0 10px rgba(119, 144, 213, 0.781);
 
     border-radius: 1rem;
     
@@ -89,7 +91,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 
-    transition: transform 0.6s ease, box-shadow 0.2s ease, background-color 1s ease;
+    transition: transform 0.6s ease, box-shadow 0.2s ease, background-color 1s ease, color 0.6s ease;
 
     /* height: auto; */
 }
@@ -108,6 +110,7 @@ body{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgb(35, 111, 133);
 
+    color: white;
     background-color: rgba(79, 156, 189, 0.763);
     
 }
@@ -130,20 +133,83 @@ body{
 }
 
 #pname{
-    color: red;
+    color: rgb(255, 255, 255);
+    text-shadow: 2 2rem 4rem black;
     font-size: 2em;
 }
 
 .pcards p{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     /* margin-top: 55px; */
 }
 
 .pcards{
-    color: antiquewhite;
+    color: rgb(253, 253, 253);
 }
 
 #plan{
     font-weight: 1000;
     font-size: medium;
+}
+
+.pcards ul{
+    /* list-style: none; */
+    list-style: '- ';
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.dineins{
+    /* margin-top: 5%; */
+    margin-top: 6%;
+    margin-left: 6%;
+    /* display: flex; */
+}
+
+.dnhead{
+    font-size: 2em;
+    color: white;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    /* padding-bottom: 2%; */
+    display: flex;
+
+    max-width: 88%;
+    margin-right: 6%;
+    /* margin: 3vh 6% auto; */
+
+    text-shadow: 0 0 10px black;
+}
+
+#para{
+    /* margin-top: 200vh; */
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    text-shadow: none;
+    /* max-width: 50%; */
+}
+
+#para p{
+    max-width: 50%;
+}
+
+.dineins img{
+    width: 30%;
+    /* height: 16.8%; */
+    max-height: 16.8%;
+    display: flex;
+    /* margin-left: 70%; */
+    justify-content: left;
+    /* align-items: flex-end; */
+    position: relative;
+    float: right;
+    /* height: auto; */
+
+    border-radius: 3%;
+    margin-right: 6%;
+}
+
+#rentcar li{
+    list-style: none;
 }
