@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@500&family=Roboto:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(204, 204, 204); */
+    font-family: "Afacad Flux", sans-serif;
+
+    background-image: linear-gradient(black, white);
+
+    background-image: url(images/serv.jpg);
+    
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+
 .srvs{
     text-align: center;
     /* justify-content: center;
@@ -13,12 +30,51 @@
     margin-top: 40%;
 
     font-family: "Afacad Flux", sans-serif;
-    font-size: 5vw;
+    
     color: white;
     text-shadow: 3px 3px 8px black;
 }
 
 #up{
-    margin-top: 20vw;
-    margin-bottom: 0px;
+    margin-top: 22vw;
+    font-size: 5vw;
+    margin-bottom: 1%;
+}
+
+#pkgs{
+    font-size: 3vw;
+    margin-top: 7vw;
+}
+
+.pplr{
+    
+    text-align: center;
+    margin-top: 40%;
+
+    font-family: "Afacad Flux", sans-serif;
+    
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+
+#line{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+
+    max-width: 60%;
+    margin: 0 20% auto;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.tpkg{
+    display: inline-flex;
+}
+
+.pcards{
+    /* width: 31%; */
+}
+
+.pcards img{
+    width: 31%;
 }
