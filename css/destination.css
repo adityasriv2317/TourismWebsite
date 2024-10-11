@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@500&family=Roboto:wght@500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(204, 204, 204); */
+    font-family: "Afacad Flux", sans-serif;
+
+    background-image: url("images/dstnbg.jpg");
+    /* background-size: cover; */
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+
+.srvs{
+    text-align: center;
+
+    margin-top: 40%;
+
+    font-family: "Afacad Flux", sans-serif;
+    
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+
+#up{
+    margin-top: 22vw;
+    font-size: 5vw;
+    margin-bottom: 1%;
+}
+
+#line{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+
+    max-width: 60%;
+    margin: 0 20% auto;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.dst{
+    font-family: "Afacad Flux", sans-serif;
+
+    background-color: rgba(32, 125, 176, 0.664);
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+
+    max-width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    margin-bottom: 5%;
+    
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: .5%;
+
+    padding-top: 0;
+    box-shadow: 0 8px 16px rgb(32, 86, 104, 0.842   );
+}
+
+#dstn{
+    color: white;
+}

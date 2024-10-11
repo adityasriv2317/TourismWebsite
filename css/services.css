@@ -167,18 +167,27 @@ body{
 }
 
 .dnhead{
-    font-size: 2em;
-    color: white;
+    font-size: 3em;
+    color: rgb(249, 252, 255);
     margin-top: 3vh;
+    background-color: rgb(71, 84, 118);
+    padding: 1%;
     margin-bottom: 2vh;
     /* padding-bottom: 2%; */
     display: flex;
 
-    max-width: 88%;
-    margin-right: 6%;
+    border-radius: 1.5rem;
+
+    max-width: 44%;
+    /* margin-right: 6%; */
     /* margin: 3vh 6% auto; */
 
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 1px 10px rgb(144, 183, 207);
+}
+
+.dineins a{
+    text-decoration: none;
+    font-size: larger;
 }
 
 #para{
