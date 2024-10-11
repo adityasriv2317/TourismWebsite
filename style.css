@@ -364,6 +364,8 @@ html {
 .flinks li {
     display: inline;
     margin: 0 10%;
+    /* align-items: ; */
+    justify-content: space-evenly;
 }
 
 .footer a {
