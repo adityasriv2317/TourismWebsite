@@ -66,6 +66,7 @@ body{
     font-size: 2.5em;
     text-decoration: underline;
 
+    text-shadow: 0 0 8px black;
     /* font-weight: 600; */
 }
 
@@ -82,5 +83,12 @@ body{
     color: white;
     font-size: 1em;
     border-radius: 2rem;
-    box-shadow: 0 0 8px rgb(74, 117, 157);
+    box-shadow: 0 0 8px rgb(100, 124, 148);
+}
+
+form input{
+    box-shadow: 0 0 6px rgb(59, 59, 59);
+    border: none;
+    font-size: 1em;
+    margin: 1vh auto;
 }
