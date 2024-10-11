@@ -94,3 +94,59 @@ form input{
     font-size: 1em;
     margin: 1vh auto;
 }
+
+.pmedia{
+    /* display: flex; */
+    /* margin-top: 50vh; */
+    background-color: rgba(188, 224, 255, 0.801);
+    border-radius: 1rem;
+    /* max-width: 90%; */
+    margin: 0 7% auto;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 1%;
+}
+
+#fhead{
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2.5em;
+    text-decoration: underline;
+
+    text-shadow: 0 0 8px black;
+    /* font-weight: 600; */
+}
+
+.icn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* width: 60%; */
+
+    /* padding-left: 30%;
+    padding-right: 30%; */
+}
+
+.icn img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.icn a{
+    /* margin-right: 20%; */
+    padding: 0;
+    display: inline-block;
+
+    width: 10%;
+    margin-right: 10%;
+
+    text-decoration: none;
+}
+
+.icn a:last-child{
+    margin-right: 0;
+}
