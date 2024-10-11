@@ -400,3 +400,8 @@ html {
     font-weight: 800;
     /* border: 1px solid white; */
 }
+
+.vids iframe{
+    width: 30%;
+    height: auto;
+}
