@@ -1,222 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-*{
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@500&family=Roboto:wght@500&display=swap');
 
 body{
-    background-color: #f4f4f4;
-    margin-top: 10.66vh;
+    font-family: "Afacad Flux", sans-serif;
+
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+
+    color: white;
 }
 
-#home, #blog, #about, #contact{
-    margin-top: 2vh;
-    /* background-color: #ffffff; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer{
+    /* position: fixed;
+    vertical-align: bottom; */
+    margin-left: 0;
+}
+
+.srvs{
     text-align: center;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px 15px;
+
+    margin-top: 30%;
+
+    font-family: "Afacad Flux", sans-serif;
+    
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 8px rgb(0, 0, 0);
 }
 
-#contact{
-    background-color: #f4f4f4;
-    color: red;
-}
-.navhome{
-    margin-left: -26.66%;
-    width: 66.67%;
-    height: 6vh;
-    border: 2px transparent;
-    position: fixed;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-evenly;
-    overflow: hidden;
+#up{
+    margin-top: 50vh;
+    font-size: 5vw;
+    margin-bottom: 1%;
 }
 
-#home:hover, #blog:hover, #about:hover, #contact:hover{
-    border: 0.26vh solid white; 
-    border-radius: 0.66vh; 
-    cursor: pointer;
-    box-sizing: border-box;
+#line{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+
+    max-width: 60%;
+    margin: 0 20% auto;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px black;
+
+    margin-bottom: 14vh;
 }
 
-#search{
-    border-radius: 1.33vh;
+.pkgform{
+    /* display: flex; */
+    background-color: rgba(188, 224, 255, 0.801);
+    border-radius: 1rem;
+    /* max-width: 90%; */
+    margin: 0 7% auto;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 1%;
+}
+
+#fhead{
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2.5em;
+    text-decoration: underline;
+
+    /* font-weight: 600; */
+}
+
+.pkgform form{
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 0 0 8px black;
+}
+
+#h{
+    padding: 1% 2%;
+    background-color: rgb(117, 184, 244);
     border: none;
-    width: 20%;
-}
-
-    .btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 3% auto;
-    }
-    
-    #btn1{
-        background-color: #007bff;
-        border: none;
-        border-radius: 0.5rem;
-        height: 50px;
-        width: 150px;
-        color: #ffffff;
-        font-size: 1.5rem;
-        font-weight: 600;
-        text-align: center;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    #btn1:hover{
-        background-color: #0056b3;
-        transform: translateY(-2px);
-    }
-    
-    #btn1:active{
-        transform: translateY(1px);
-    }
-    
-    h1{
-        font-size: 7vh;
-        font-family: 'Inter', sans-serif;
-        font-weight: 700;
-        color: #223e79;
-        text-align: center;
-        margin: 20px 0;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    }
-    
-    h2{
-        font-size: 5vh;
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        color: #435f9ad7;
-        text-align: center;
-        margin: 10px 0;
-        line-height: 1.4;
-        letter-spacing: 0.5px;
-    }
-    
-
-    hr{
-        margin: 3% 10% auto; 
-        border: 0.5px solid #ddd; 
-        height: 2px;
-    }
-    
-    .contactdetails{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        background-color: #f0f4ff;
-        border-radius: 8px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        max-width: 600px;
-        margin: 20px auto;
-    }
-    
-    .address, .number, .gmail{
-        display: flex;
-        align-items: center;
-        margin-bottom: 15px;
-        width: 100%;
-        background-color: #ffffff;
-        padding: 15px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s;
-    }
-    
-    .address:hover, .number:hover, .gmail:hover{
-        transform: translateY(-2px);
-    }
-    
-    .address i, .number i, .gmail i{
-        font-size: 24px;
-        color: #007bff;
-        margin-right: 10px;
-    }
-    
-    p{
-        margin: 5px 0;
-        color: #333;
-    }
-    
-    #ph, #lo, #em{
-        margin: 0;
-        font-weight: bold;
-    }
-
-    .socialmedias{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-color: #f8f9fa;
-        padding: 20px;
-        gap: 20px;
-        border-radius: 10px;
-    }
-    
-    
-    
-    .icon1, .icon2, .icon3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        
-    }
-    
-  
-.icon1 a, .icon2 a, .icon3 a{
-    font-size: 2rem;
-    text-decoration: none;
-    color: #3b5998;
-    transition: color 0.3s;
-}
-
-.icon1 a:hover, .icon2 a:hover, .icon3 a:hover{
-    color: #dc205e;
-}
-
-.txt{
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #333; 
-}
-.menubutton{
-    display: none;
-}
-.cnt{
-    display: flex;
-}
-@media (max-width: 600px) {
-
-    .menubutton{
-        display: flex;
-        margin-left: 90%;
-        justify-content: center;
-        align-items: center;
-        color: #333;
-    }
-
-    .cnt{
-        display: none;
-    }
-    #search{
-        width: 100%;
-        border-radius: 1.33vw;
-    border: none;
-    }
-    
+    color: white;
+    font-size: 1em;
+    border-radius: 2rem;
+    box-shadow: 0 0 8px rgb(74, 117, 157);
 }
