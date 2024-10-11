@@ -68,7 +68,7 @@ body{
     padding-right: 5%;
     padding-left: 2%;
     margin-top: 3%;
-    padding-bottom: .5%;
+    padding-bottom: 3%;
 
     padding-top: 0;
     box-shadow: 0 5px 17px rgb(63, 146, 173);
@@ -97,6 +97,7 @@ body{
     /* 1% 0.7% auto; */
     text-shadow: 0 0 10px rgb(0, 66, 90);
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -154,4 +155,25 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 800;
     /* border: 1px solid white; */
+}
+
+.imgs img{
+    width: 31%;
+    object-fit: cover;
+    border-radius: 6%;
+    margin-right: 2vw;
+    box-shadow: 0 0 10px rgb(150, 194, 255);
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-around;
+
+
+    margin-top: 2%;
+    
+}
+
+.imgs img:last-child{
+    margin-right: 0;
 }
