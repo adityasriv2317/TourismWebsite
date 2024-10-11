@@ -41,29 +41,116 @@ body{
     box-shadow: 2px 2px 8px black;
 }
 
+.dlist{
+    margin-top: 14vh;
+    /* background-color: white; */
+    margin: 14vh 5% auto;
+    padding-top: 4%;
+}
+
 .dst{
     font-family: "Afacad Flux", sans-serif;
 
-    background-color: rgba(32, 125, 176, 0.664);
+    background-color: rgba(32, 126, 176, 0.812);
     border-radius: 2rem;
 
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
 
-    max-width: 35%;
-    margin-left: 5%;
-    margin-right: 5%;
+    height: 40vh;
+
+    /* max-width: 35%; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
 
     margin-bottom: 5%;
     
-    padding-right: 1%;
-    padding-left: 1%;
+    padding-right: 5%;
+    padding-left: 2%;
+    margin-top: 3%;
     padding-bottom: .5%;
 
     padding-top: 0;
-    box-shadow: 0 8px 16px rgb(32, 86, 104, 0.842   );
+    box-shadow: 0 5px 17px rgb(63, 146, 173);
 }
 
 #dstn{
     color: white;
+    /* width: 50%; */
+
+    /* vertical-align: middle; */
+}
+
+.dtxt{
+    display: flex; 
+    justify-content: space-between;
+    /* vertical-align: middle; */
+}
+
+#name{
+    
+    margin-right: 2vw;
+    font-size: 3em;
+}
+
+.dst h2{
+    /* 1% 0.7% auto; */
+    text-shadow: 0 0 10px rgb(0, 66, 90);
+    margin-top: 0;
+}
+
+
+#getpkg{
+    /* text-align: right; */
+    /* margin-top: ; */
+    margin-right: 0;
+    padding-left: 0;
+    /* padding-top: 0; */
+
+    /* padding: 2px 2px auto; */
+
+    display: flex;    
+    vertical-align: middle;
+    
+    position: relative;
+    float: right;
+    /* margin-left: 7%; */
+}
+
+#getpkg a{
+    text-decoration: none;
+    /* align-items: flex-end; */
+    text-align: right;
+    display: flex;
+    /* margin-right: 0; */
+    margin-top: 2vh;
+    
+    /* margin-left: 1vw; */
+    color: white;
+    /* display: flex; */
+
+    flex-shrink: 0;
+
+    padding: 2px 2px auto;
+    border: 1px solid white;
+    border-radius: 1rem;
+
+    /* text-shadow: 0 0 5px black; */
+    /* box-shadow: 0 0 5px black; */
+}
+
+#getpkg{
+    transition: background-color 0.6s ease, font-weight 0.6s ease;
+    margin: 2% 2% auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    vertical-align: middle;
+}
+
+#getpkg:hover a{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    /* border: 1px solid white; */
 }

@@ -134,8 +134,9 @@ html {
 } */
 
 #searchline{
-    font-size: larger;
+    font-size: 1.4vmax;
     /* margin-left: 10px; */
+    height: 5vh;
     padding-left: 1%;
 }
 
