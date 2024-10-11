@@ -312,13 +312,15 @@ html {
 .vdogallery{
     font-family: "Afacad Flux", sans-serif;
 
-    background-color: rgba(39, 129, 51, 0.778);
+    background-color: rgba(48, 157, 197, 0.827);
+    backdrop-filter: blur(10px);
     border-radius: 2rem;
 
     max-width: 98%;
     margin-left: 4%;
     margin-right: 4%;
 
+    box-shadow: 0 0 12px rgb(95, 189, 226);
     margin-bottom: 5%;
 
     /* padding: 1% 3% auto; */
@@ -332,12 +334,15 @@ html {
 #vdotext{
     font-size: 3em;
     padding-top: .5%;
+    color: white;
+    text-shadow: 0 4px 10px rgb(66, 101, 125);
     margin-bottom: 1%;
 }
 
 .vids iframe{
     border-radius: 2rem;
     margin-right: 1vw;
+    box-shadow: 0 0 10px skyblue;
 }
 
 .vids iframe:last-child{
