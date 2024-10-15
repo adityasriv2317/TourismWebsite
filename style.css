@@ -402,6 +402,11 @@ html {
 }
 
 .vids iframe{
-    width: 30%;
-    height: auto;
+    /* margin-left: 2vw; */
+    width: 28vw;
+    height: 30vh;
+}
+
+.vids iframe:last-child{
+    margin-left: 0;
 }
