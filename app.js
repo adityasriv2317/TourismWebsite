@@ -11,4 +11,4 @@ imgs.forEach((ig, i) => {
     ig.addEventListener('click', () =>{
         target.click()
     })
-});
+})
